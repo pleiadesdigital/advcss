@@ -1,0 +1,16 @@
+{
+  "name": "advcss",
+  "version": "1.0.0",
+  "description": "advanced css training",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+
+  },
+  "author": "Ronaldo Ortiz",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
+
